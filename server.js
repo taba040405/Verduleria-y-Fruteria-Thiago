@@ -12,7 +12,7 @@ app.use(express.static(__dirname + "/public"));
 app.get('/', function(request, response){
     var frutasVerduras = [{nombre: 'Lechuga', tipo: 'Verdura', precio: 90, enStock: false, img: 'https://static.libertyprim.com/files/familles/romaine-large.jpg?1569271844'},
     {nombre: 'Manzana', tipo: 'Fruta', precio: 220, enStock: true, img: 'https://cdn.shopify.com/s/files/1/0356/8687/5195/products/apple-2736410_1920.png?v=1585365986'},
-    {nombre: 'Limón', tipo: 'Fruta', precio: 105, enStock: false, img: 'http://assets.stickpng.com/images/580b57fcd9996e24bc43c159.png'}, 
+    {nombre: 'Limón', tipo: 'Fruta', precio: 105, enStock: false, img: 'https://sc2.elpais.com.uy/files/article_default_content/uploads/2017/09/11/59b612d1476cf.jpeg'}, 
     {nombre: 'Naranja', tipo: 'Fruta', precio: 60, enStock: true, img: 'http://assets.stickpng.com/images/580b57fcd9996e24bc43c16d.png'}, 
     {nombre: 'Mandarina', tipo: 'Fruta', precio: 90, enStock: true, img:'http://pngimg.com/uploads/mandarin/mandarin_PNG51.png  '}, 
     {nombre: 'Manzana Verde', tipo: 'Fruta', precio: 280, enStock: true, img: 'http://assets.stickpng.com/images/580b57fbd9996e24bc43c116.png'},
