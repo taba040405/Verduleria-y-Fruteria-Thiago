@@ -18,7 +18,7 @@ app.get('/', function(request, response){
     {nombre: 'Manzana Verde', tipo: 'Fruta', precio: 280, enStock: true, img: 'http://assets.stickpng.com/images/580b57fbd9996e24bc43c116.png'},
     {nombre: 'Sandía', tipo: 'Fruta', precio: 65, enStock: true, img: 'https://bestfruitchile.cl/wp-content/uploads/2021/04/sandia.jpg'}, 
     {nombre: 'Pera', tipo: 'Fruta', precio: 200, enStock: true, img: 'http://assets.stickpng.com/images/580b57fcd9996e24bc43c17d.png'},
-    {nombre: 'Berenjena', tipo: 'Verdura', precio: 180, enStock: false, img: 'http://assets.stickpng.com/images/580b57fcd9996e24bc43c21a.png'}, 
+    {nombre: 'Berenjena', tipo: 'Verdura', precio: 180, enStock: false, img: 'https://www.lefruit.com.ar/img_productos/43a4182e02a2ca254a4af020df4554c7.jpg'}, 
     {nombre: 'Morrón Rojo', tipo: 'Verdura', precio: 330, enStock: true, img: 'https://www.verduleriavenado.com.ar/wp-content/uploads/2020/04/pimiento-rojo.jpg'},
     {nombre: 'Choclo', tipo: 'Verdura', precio: 190, enStock: false, img: 'https://granjaus.com/wp-content/uploads/2019/04/choclo2.jpg'}, 
     {nombre: 'Tomáte Perita', tipo: 'Fruta', precio: 300, enStock: true, img: 'https://puntovegetal.com.ar/static/media/productos/tomate_perita.png'}];
